@@ -16,7 +16,7 @@
  server.use(express.json())
 
  server.post('/sign-up', (req, res) => {
-     const { username, avatar } = req.bod
+     const { username, avatar } = req.body
      user.username = username
      user.avatar = avatar
 
